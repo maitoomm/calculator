@@ -14,7 +14,14 @@ class CalculatorServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        // Load routes
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        // Load routes từ file routes/web.php
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+    
+        // Load views (nếu có)
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'calculator');
+    
+        // Load migrations (nếu có)
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
+    
 }

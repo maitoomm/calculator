@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be073d48067a3f4b3100feae778b2984",
+    "content-hash": "0d09bef34cf247acccb8ea1a087fa9c6",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -746,20 +746,21 @@
         },
         {
             "name": "illuminate/routing",
-            "version": "v9.0.0",
+            "version": "9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
-                "reference": "bcb2076edfc25c4bb2b836ab42add1e07cd37543"
+                "reference": "47386ffc1ce1c6c45c0417cf75a5a7d3b1d685d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/routing/zipball/bcb2076edfc25c4bb2b836ab42add1e07cd37543",
-                "reference": "bcb2076edfc25c4bb2b836ab42add1e07cd37543",
+                "url": "https://api.github.com/repos/illuminate/routing/zipball/47386ffc1ce1c6c45c0417cf75a5a7d3b1d685d2",
+                "reference": "47386ffc1ce1c6c45c0417cf75a5a7d3b1d685d2",
                 "shasum": ""
             },
             "require": {
-                "ext-json": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
                 "illuminate/collections": "^9.0",
                 "illuminate/container": "^9.0",
                 "illuminate/contracts": "^9.0",
@@ -805,7 +806,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-02-03T15:18:48+00:00"
+            "time": "2023-04-04T18:33:43+00:00"
         },
         {
             "name": "illuminate/session",

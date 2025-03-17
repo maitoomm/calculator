@@ -3,9 +3,9 @@
     "description": "simple calculator package for Laravel",
     "type": "library",
     "require": {
-        "illuminate/support": "12.x-dev",
-        "illuminate/routing": "12.x-dev",
-        "php": "^8.2"
+        "php": "^8.2",
+        "illuminate/support": "^10.0 || ^11.0",
+        "illuminate/routing": "^10.0 || ^11.0"
     },
     "require-dev": {
         "laravel/pint": "dev-main",

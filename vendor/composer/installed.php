@@ -3,7 +3,7 @@
         'name' => 'maitoomm/calculator',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2a8ba697d5774c993016c91efc86855ea97a8406',
+        'reference' => '3aef02c5cf8a32774b0820e07f140a39dd243f29',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -163,7 +163,7 @@
         'maitoomm/calculator' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2a8ba697d5774c993016c91efc86855ea97a8406',
+            'reference' => '3aef02c5cf8a32774b0820e07f140a39dd243f29',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

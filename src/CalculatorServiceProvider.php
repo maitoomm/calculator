@@ -22,7 +22,7 @@ class CalculatorServiceProvider extends ServiceProvider
         // Tự động publish Controller vào thư mục `app/Http/Controllers`
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/Controllers/MyPackageController.php' => App::basePath('app/Http/Controllers/MyPackageController.php'),
+                __DIR__.'/Controllers\CalculatorController.php' => App::basePath('app/Http/Controllers\CalculatorController.php'),
             ], 'controllers'); 
         }
     }

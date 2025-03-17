@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => 'admin/calculator',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'maitoomm/calculator',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd109dde06ae5ab6a67d5ccb8bec81ca6ce00d726',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'admin/calculator' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'carbonphp/carbon-doctrine-types' => array(
             'pretty_version' => '3.2.0',
             'version' => '3.2.0.0',
@@ -193,6 +184,15 @@
                 0 => '9999999-dev',
             ),
             'dev_requirement' => true,
+        ),
+        'maitoomm/calculator' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd109dde06ae5ab6a67d5ccb8bec81ca6ce00d726',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.x-dev',

@@ -1,5 +1,5 @@
 {
-    "name": "admin/calculator",
+    "name": "maitoomm/calculator",
     "description": "simple calculator package for Laravel",
     "type": "library",
     "require": {

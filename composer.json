@@ -1,0 +1,21 @@
+{
+    "name": "admin/calculator",
+    "description": "simple calculator package for Laravel",
+    "type": "library",
+    "require": {
+        "illuminate/support": "12.x-dev",
+        "illuminate/routing": "12.x-dev",
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "laravel/pint": "dev-main",
+        "phpunit/phpunit": "11.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\Calculator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

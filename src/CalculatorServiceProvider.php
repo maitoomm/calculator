@@ -3,27 +3,28 @@
 namespace MyVendor\Calculator;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Filesystem\Filesystem;
 
 class CalculatorServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        // Đăng ký route tự động khi package được load
+        // Đăng ký namespace cho Controller
         $this->app->make('MyVendor\Calculator\Controllers\CalculatorController');
     }
 
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        // Đăng ký route từ package
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
+        // Tự động publish Controller vào thư mục `app/Http/Controllers`
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/routes/web.php' => $this->app->basePath('routes/calculator.php'), 
-            ], 'calculator-routes');
+                __DIR__.'/Controllers/MyPackageController.php' => base_path('app/Http/Controllers/MyPackageController.php'),
+            ], 'controllers');
+            
         }
-        
-    
-   
     }
      
 }
